@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "music";
+  src:url("fonts/music.eot");
+  src:url("fonts/music.eot?#iefix") format("embedded-opentype"),
+    url("fonts/music.woff") format("woff"),
+    url("fonts/music.ttf") format("truetype"),
+    url("fonts/music.svg#music") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "music" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="music-"]:before,
+[class*=" music-"]:before {
+  font-family: "music" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.music-crotchet:before {
+  content: "\61";
+}
+.music-quaver:before {
+  content: "\62";
+}
+.music-demi-flat:before {
+  content: "\63";
+}
+.music-demi-sharp:before {
+  content: "\64";
+}
+.music-demisemiquaver:before {
+  content: "\65";
+}
+.music-double-flat:before {
+  content: "\66";
+}
+.music-double-sharp:before {
+  content: "\67";
+}
+.music-flat:before {
+  content: "\68";
+}
+.music-flat-and-a-half:before {
+  content: "\69";
+}
+.music-ghost-crotchet:before {
+  content: "\6a";
+}
+.music-ghost-demisemiquaver:before {
+  content: "\6b";
+}
+.music-ghost-quaver:before {
+  content: "\6c";
+}
+.music-ghost-semiquaver:before {
+  content: "\6d";
+}
+.music-minim:before {
+  content: "\6e";
+}
+.music-rest-crotchet:before {
+  content: "\6f";
+}
+.music-rest-demisemiquaver:before {
+  content: "\70";
+}
+.music-rest-minim:before {
+  content: "\71";
+}
+.music-rest-quaver:before {
+  content: "\72";
+}
+.music-rest-semibreve:before {
+  content: "\73";
+}
+.music-rest-semiquaver:before {
+  content: "\74";
+}
+.music-semibreve:before {
+  content: "\75";
+}
+.music-semiquaver:before {
+  content: "\76";
+}
+.music-sharp:before {
+  content: "\77";
+}
+.music-sharp-and-a-half:before {
+  content: "\78";
+}
+.music-key-c:before {
+  content: "\79";
+}
+.music-key-f:before {
+  content: "\7a";
+}
+.music-key-g:before {
+  content: "\41";
+}
